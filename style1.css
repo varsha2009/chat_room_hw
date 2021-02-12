@@ -1,0 +1,46 @@
+ 
+  body{
+      text-align: center;
+      background: lightgray;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  #welcome{
+    background-image: url("study.jpg");
+    background-attachment: fixed;
+  }
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+.login{
+  background-color: cornflowerblue;
+  border-radius: 0%;
+  border:none;
+  width: 40%;
+  height: 7%;
+} 
+#form_div{
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#welcome{
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.responsive {
+  width: 100%;
+  height: 100%;
+}
+h1{
+  font-family: 'Fraunces', serif;
+}
+h6{
+  font-family: 'Sacramento', cursive;
+  font-size: 30px;
+}
+
+

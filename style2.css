@@ -1,0 +1,63 @@
+@keyframes example {
+    0%   { left:1250px; top:485px;}
+    100%  { left:1250px; top:60px;}
+  }
+  #animation { 
+    text-align: center; 
+    position: fixed;
+    left: 1250px; 
+    top: 485px;
+    width: 100px; 
+    height: 130px;
+    position: fixed; 
+    background-color: #75edfd81; 
+    animation-name: example; 
+    animation-duration: 3s; 
+    animation-iteration-count: 2; 
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19); 
+    animation-direction: alternate; 
+    border-radius: 10px; 
+  } 
+    
+    .control{ 
+      width: 400px; 
+      height: 30px; 
+    } 
+    #div1{ 
+      background: rgba(0, 0, 0, 0.323); 
+      width: 550px; 
+      
+      border-radius: 20px; 
+      padding-top: 7px ;
+    } 
+    body{ 
+    background-image: url("background.jpg"); 
+    height: 100%; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; } 
+    
+    #trendig_rooms{ 
+      background: rgba(0, 0, 0, 0.323); 
+    }
+    h1{
+      font-family: 'Yeon Sung'; 
+    }
+    h2{
+      font-family: 'Sacramento', cursive;
+      font-size: 45px;
+    }
+    #logout{
+  font-size: 20px;
+   float: right;
+}
+.room_name{
+    background: rgba(0, 0, 0, 0.323);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px; 
+    height: 40px; 
+    border-radius: 20px; 
+
+}
